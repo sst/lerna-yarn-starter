@@ -1,0 +1,29 @@
+{
+  "name": "sst-lerna-yarn-starter",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "src/packages/*",
+    "src/services/*"
+  ],
+  "scripts": {
+    "test": "sst test",
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.105.0",
+    "@types/aws-lambda": "^8.10.70",
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "@serverless-stack/cli": "0.29.2",
+    "@serverless-stack/resources": "0.29.2",
+    "@aws-cdk/core": "1.105.0"
+  }
+}

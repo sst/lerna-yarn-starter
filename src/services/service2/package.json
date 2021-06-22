@@ -1,0 +1,6 @@
+{
+  "name": "service2",
+  "version": "0.0.1",
+  "main": "handler.js",
+  "license": "MIT"
+}

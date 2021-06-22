@@ -1,0 +1,6 @@
+{
+  "name": "sst-lerna-yarn-starter",
+  "stage": "dev",
+  "region": "us-east-1",
+  "lint": true
+}

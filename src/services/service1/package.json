@@ -1,0 +1,9 @@
+{
+  "name": "service1",
+  "version": "0.0.1",
+  "main": "handler.js",
+  "license": "MIT",
+  "dependencies": {
+    "sample": "^0.0.1"
+  }
+}
