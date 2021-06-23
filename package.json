@@ -18,7 +18,6 @@
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.105.0",
-    "@types/aws-lambda": "^8.10.70",
     "lerna": "^3.22.1"
   },
   "dependencies": {
