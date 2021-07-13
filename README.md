@@ -1,4 +1,4 @@
-# SST Lerna + Yarn Workspaces Monorepo Starter
+# SST Lerna + Yarn Workspaces Starter [![Seed Status](https://api.seed.run/serverless-stack/lerna-yarn-starter/stages/dev/build_badge)](https://console.seed.run/serverless-stack/lerna-yarn-starter)
 
 A [Serverless Stack Framework (SST)](https://github.com/serverless-stack/serverless-stack) monorepo starter that uses [Lerna](https://lerna.js.org) and [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/).
 
