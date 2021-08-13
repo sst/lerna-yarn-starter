@@ -17,12 +17,13 @@
     "remove": "sst remove"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.105.0",
+    "@aws-cdk/assert": "1.111.0",
     "lerna": "^3.22.1"
   },
   "dependencies": {
-    "@serverless-stack/cli": "0.29.2",
-    "@serverless-stack/resources": "0.29.2",
-    "@aws-cdk/core": "1.105.0"
+    "@aws-cdk/core": "1.111.0",
+    "@serverless-stack/cli": "0.38.0",
+    "@serverless-stack/resources": "0.38.0",
+    "@serverless-stack/static-site-env": "0.38.0"
   }
 }

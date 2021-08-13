@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Service 1‘s API Endpoint: <a className="App-link" href="%%SERVICE_1_ENDPOINT%%" target="_blank" rel="noopener noreferrer">%%SERVICE_1_ENDPOINT%%</a></p>
-        <p>Service 2‘s API Endpoint: <a className="App-link" href="%%SERVICE_2_ENDPOINT%%" target="_blank" rel="noopener noreferrer">%%SERVICE_2_ENDPOINT%%</a></p>
+        <p>Service 1‘s API Endpoint: <a className="App-link" href={process.env.REACT_APP_SERVICE_1_ENDPOINT} target="_blank" rel="noopener noreferrer">{process.env.REACT_APP_SERVICE_1_ENDPOINT}</a></p>
+        <p>Service 2‘s API Endpoint: <a className="App-link" href={process.env.REACT_APP_SERVICE_2_ENDPOINT} target="_blank" rel="noopener noreferrer">{process.env.REACT_APP_SERVICE_2_ENDPOINT}</a></p>
         <a
           className="App-link"
           href="https://reactjs.org"
